@@ -1,0 +1,13 @@
+Source: infrahouse-com
+Priority: optional
+Maintainer: Oleksandr Kuzminskyi <aleks@infrahouse.com>
+Build-Depends: debhelper-compat (= 12), hugo
+Standards-Version: 4.4.1
+Section: admin
+Homepage: https://infrahouse.com
+Vcs-Browser: https://github.com/infrahouse/infrahouse-com
+Vcs-Git: https://github.com/infrahouse/infrahouse-com.git
+
+Package: infrahouse-com
+Architecture: all
+Description: infrahouse.com content
