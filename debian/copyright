@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: infrahouse-com
+Upstream-Contact: legal@infrahouse.com
+Source: https://infrahouse.com
+
+Files: *
+Copyright: 2023 InfraHouse Inc.
+License: All rights reserved
+

@@ -1,0 +1,5 @@
+.debhelper/
+infrahouse-com/
+infrahouse-com.substvars
+files
+debhelper-build-stamp

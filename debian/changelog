@@ -1,0 +1,12 @@
+infrahouse-com (0.1.0-1build1) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Sat, 19 Aug 2023 14:46:03 -0700
+
+infrahouse-com (0.1.0-1) jammy; urgency=medium
+
+  [ Oleksandr Kuzminskyi ]
+  * Initial release
+
+ -- MediaPC <aleks@infrahouse.com>  Sat, 19 Aug 2023 13:49:29 -0700
