@@ -1,4 +1,4 @@
-# This workflow will upload a Puppet Code Package when a new commit to main is pushed
+# This workflow will upload an infrahouse-com package when a new commit to main is pushed
 ---
 name: infrahouse.com Continuous Deployment
 
@@ -36,7 +36,7 @@ jobs:
               uses: aws-actions/configure-aws-credentials@v2
               with:
                   role-to-assume: ${{ env.ROLE_ARN }}
-                  role-session-name: github-action-puppet-code-cd
+                  role-session-name: github-action-cd
                   aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
 
             - name: "Setup tmate session"
