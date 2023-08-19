@@ -1,0 +1,43 @@
+baseURL = 'https://infrahouse.com/'
+copyright = "2023 InfraHouse Inc."
+languageCode = 'en-us'
+title = 'InfraHouse'
+theme = 'beautifulhugo'
+enableGitInfo = true
+enableRobotsTXT = true
+
+[menu]
+[[menu.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menu.main]]
+name = 'Products'
+pageRef = '/products'
+weight = 20
+
+[[menu.main]]
+name = 'Services'
+pageRef = '/services'
+weight = 30
+
+[[menu.main]]
+name = 'Hardware'
+pageRef = '/products/hardware'
+parent = 'Products'
+weight = 1
+
+[[menu.main]]
+name = 'Software'
+pageRef = '/products/software'
+parent = 'Products'
+weight = 2
+
+
+[author]
+name = "InfraHouse Inc."
+website = "https://infrahouse.com"
+github = "infrahouse"
+linkedin_inc = "infrahouse-inc"
+email = "contact@infrahouse.com"
