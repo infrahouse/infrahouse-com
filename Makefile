@@ -45,5 +45,5 @@ install:
 	cp -R public/* "${DESTDIR}${INSTALL_DIR}"
 
 .PHONY: package
-package:
+package: all
 	bash support/package.sh
