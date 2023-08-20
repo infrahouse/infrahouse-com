@@ -3,8 +3,13 @@ copyright = "2023 InfraHouse Inc."
 languageCode = 'en-us'
 title = 'InfraHouse'
 theme = 'beautifulhugo'
-enableGitInfo = true
 enableRobotsTXT = true
+
+[Params]
+homeTitle = "InfraHouse" # Set a different text for the header on the home page
+logo = "images/ih-logo.png" # Expecting square dimensions
+#favicon = "images/favicon.png"
+favicon = "images/favicon-light.png"
 
 [menu]
 [[menu.main]]
