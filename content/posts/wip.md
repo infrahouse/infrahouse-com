@@ -7,7 +7,7 @@ author: Oleksandr Kuzminskyi
 
 ## Introduction
 
-This is the fist page of the InfraHouse website. The work is in progres,
+This is the fist page of the InfraHouse website. The work is in progress,
 so stay tuned for updates.
 
 Meanwhile, you can visit our [GitHub](https://github.com/infrahouse)
