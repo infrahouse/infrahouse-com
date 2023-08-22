@@ -7,9 +7,9 @@ enableRobotsTXT = true
 
 [Params]
 homeTitle = "InfraHouse" # Set a different text for the header on the home page
-logo = "images/ih-logo.png" # Expecting square dimensions
-#favicon = "images/favicon.png"
-favicon = "images/favicon-light.png"
+logo = "https://cdn.infrahouse.com/images/ih-logo.png" # Expecting square dimensions
+favicon = "https://cdn.infrahouse.com/images/favicon-light.png"
+selfHosted = true
 
 [menu]
 [[menu.main]]
