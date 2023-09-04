@@ -54,38 +54,33 @@
 <!-- Links and stylesheets -->
   <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
-  {{- if .Site.Params.selfHosted -}}
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/katex.min.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/katex.min.css" | absURL }}" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/bootstrap.min.css" | absURL }}" />
-  {{- else -}}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  {{- end -}}
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/bootstrap.min.css" | absURL }}" />
 
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/main.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/main.css" | absURL }}" />
 
   {{- if .Site.Params.staticman -}}
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/staticman.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/staticman.css" | absURL }}" />
   {{- end -}}
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
 
   {{- if .Site.Params.useHLJS }}
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/highlight.min.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/highlight.min.css" | absURL }}" />
   {{- else -}}
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/syntax.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/syntax.css" | absURL }}" />
   {{- end -}}
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/codeblock.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/codeblock.css" | absURL }}" />
   
   {{- if .Site.Params.staticman.recaptcha -}}
   <script src='https://www.google.com/recaptcha/api.js'></script>
   {{- end -}}
 
   {{- if .Site.Params.selfHosted -}}
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/photoswipe.min.css" | absURL }}" />
-  <link rel="stylesheet" href="{{ "https://cdn.infrahouse.com/css/photoswipe.default-skin.min.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/photoswipe.min.css" | absURL }}" />
+  <link rel="stylesheet" href="{{ urls.JoinPath .Site.Params.cdn "css/photoswipe.default-skin.min.css" | absURL }}" />
   {{- else -}}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">

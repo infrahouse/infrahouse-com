@@ -10,6 +10,7 @@ homeTitle = "InfraHouse" # Set a different text for the header on the home page
 logo = "https://cdn.infrahouse.com/images/ih-logo.png" # Expecting square dimensions
 favicon = "https://cdn.infrahouse.com/images/favicon-light.png"
 selfHosted = true
+cdn = "https://cdn.infrahouse.com"
 
 [menu]
 [[menu.main]]
