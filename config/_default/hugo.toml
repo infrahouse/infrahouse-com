@@ -24,21 +24,63 @@ pageRef = '/products'
 weight = 20
 
 [[menu.main]]
+name = 'MySQL on AWS'
+pageRef = '/products/mysql-on-aws'
+parent = 'Products'
+weight = 1
+
+[[menu.main]]
+name = 'ProxySQL on AWS'
+pageRef = '/products/proxysql-on-aws'
+parent = 'Products'
+weight = 2
+
+[[menu.main]]
+name = 'Terraform CI/CD'
+pageRef = '/products/terraform-ci-cd'
+parent = 'Products'
+weight = 3
+
+[[menu.main]]
+name = 'Python CI/CD'
+pageRef = '/products/python-ci-cd'
+parent = 'Products'
+weight = 4
+
+
+[[menu.main]]
 name = 'Services'
 pageRef = '/services'
 weight = 30
 
 [[menu.main]]
-name = 'Hardware'
-pageRef = '/products/hardware'
-parent = 'Products'
+name = 'Remote DBA'
+pageRef = '/services/remote-dba'
+parent = 'Services'
 weight = 1
 
 [[menu.main]]
-name = 'Software'
-pageRef = '/products/software'
-parent = 'Products'
+name = 'Database Consulting'
+pageRef = '/services/database-consulting'
+parent = 'Services'
 weight = 2
+
+[[menu.main]]
+name = 'AWS Consulting'
+pageRef = '/services/aws-consulting'
+parent = 'Services'
+weight = 3
+
+[[menu.main]]
+name = 'About'
+pageRef = '/about'
+weight = 40
+
+[[menu.main]]
+name = 'Contact'
+pageRef = '/contact'
+weight = 50
+
 
 
 [author]
