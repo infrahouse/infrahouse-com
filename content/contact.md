@@ -6,7 +6,7 @@ date: 2023-09-04T09:22:03-07:00
 subtitle: ""
 image: ""
 tags: []
-draft: true
+draft: false
 ---
 
 # LinkedIn
