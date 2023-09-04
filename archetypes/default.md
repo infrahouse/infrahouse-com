@@ -1,6 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
 author: Oleksandr Kuzminskyi
+type: ""
+date: {{ .Date }}
+subtitle: ""
+image: ""
+tags: []
+draft: true
 ---
