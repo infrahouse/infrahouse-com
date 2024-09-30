@@ -1,5 +1,5 @@
 baseURL = 'https://infrahouse.com/'
-copyright = "2023 InfraHouse Inc."
+copyright = "2023-2024 InfraHouse Inc."
 languageCode = 'en-us'
 title = 'InfraHouse'
 theme = 'beautifulhugo'
@@ -11,76 +11,59 @@ logo = "https://cdn.infrahouse.com/images/ih-logo.png" # Expecting square dimens
 favicon = "https://cdn.infrahouse.com/images/favicon-light.png"
 selfHosted = true
 cdn = "https://cdn.infrahouse.com"
+mainSections = ["post","posts"]
 
-[menu]
-[[menu.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
+[menus]
+    [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
 
-[[menu.main]]
-name = 'Products'
-pageRef = '/products'
-weight = 20
+    [[menus.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 20
 
-[[menu.main]]
-name = 'MySQL on AWS'
-pageRef = '/products/mysql-on-aws'
-parent = 'Products'
-weight = 1
+        [[menus.main]]
+        name = 'Terraform Modules'
+        url = 'https://registry.terraform.io/namespaces/infrahouse'
+        parent = 'Products'
+        weight = 1
 
-[[menu.main]]
-name = 'ProxySQL on AWS'
-pageRef = '/products/proxysql-on-aws'
-parent = 'Products'
-weight = 2
+        [[menus.main]]
+        name = 'Infrahouse Toolkit'
+        url = 'https://infrahouse-toolkit.readthedocs.io/en/latest/readme.html'
+        parent = 'Products'
+        weight = 2
 
-[[menu.main]]
-name = 'Terraform CI/CD'
-pageRef = '/products/terraform-ci-cd'
-parent = 'Products'
-weight = 3
-
-[[menu.main]]
-name = 'Python CI/CD'
-pageRef = '/products/python-ci-cd'
-parent = 'Products'
-weight = 4
+        [[menus.main]]
+        name = 'Terraform CI/CD'
+        url = 'https://github.com/infrahouse/terraform-template'
+        parent = 'Products'
+        weight = 3
 
 
-[[menu.main]]
-name = 'Services'
-pageRef = '/services'
-weight = 30
+    [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 30
 
-[[menu.main]]
-name = 'Remote DBA'
-pageRef = '/services/remote-dba'
-parent = 'Services'
-weight = 1
+        [[menus.main]]
+        name = 'Cloud Infrastructure Management'
+        pageRef = '/services/infrastructure-management'
+        parent = 'Services'
+        weight = 1
 
-[[menu.main]]
-name = 'Database Consulting'
-pageRef = '/services/database-consulting'
-parent = 'Services'
-weight = 2
+        [[menus.main]]
+        name = 'Remote DBA'
+        pageRef = '/services/remote-dba'
+        parent = 'Services'
+        weight = 2
 
-[[menu.main]]
-name = 'AWS Consulting'
-pageRef = '/services/aws-consulting'
-parent = 'Services'
-weight = 3
-
-[[menu.main]]
-name = 'About'
-pageRef = '/about'
-weight = 40
-
-[[menu.main]]
-name = 'Contact'
-pageRef = '/contact'
-weight = 50
-
+    [[menus.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 40
 
 
 [author]
@@ -89,3 +72,5 @@ website = "https://infrahouse.com"
 github = "infrahouse"
 linkedin_inc = "infrahouse-inc"
 email = "contact@infrahouse.com"
+slack = "https://infrahouse.slack.com"
+discord = "https://discord.gg/xKBcdh6RN8"
