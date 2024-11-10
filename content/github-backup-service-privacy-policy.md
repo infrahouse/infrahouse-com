@@ -57,6 +57,8 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 If you have any questions about this Privacy Policy or the practices related to our GitHub Backup Service, please contact us at:
 
 InfraHouse Inc.
+
 contact@infrahouse.com
+
 2108 N St, Ste N
 Sacramento, CA 95816
