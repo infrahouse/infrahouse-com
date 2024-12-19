@@ -5,13 +5,6 @@ name: infrahouse.com Continuous Integration
 on:  # yamllint disable-line rule:truthy
   pull_request:
 
-permissions:
-    id-token: write  # This is required for requesting the JWT
-    contents: read
-
-env:
-    ROLE_ARN: "arn:aws:iam::493370826424:role/infrahouse-com-github"
-
 jobs:
     deploy:
         runs-on: ubuntu-22.04
@@ -23,13 +16,6 @@ jobs:
             - name: Install dependencies
               run: |
                 sudo bash support/install_deps.sh ${{ matrix.codename }}
-
-            - name: Configure AWS Credentials
-              uses: aws-actions/configure-aws-credentials@v2
-              with:
-                  role-to-assume: ${{ env.ROLE_ARN }}
-                  role-session-name: github-action-cd
-                  aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
 
             - name: Build package
               run: |
