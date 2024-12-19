@@ -1,76 +1,76 @@
-baseURL = 'https://infrahouse.com/'
-copyright = "2023-2024 InfraHouse Inc."
-languageCode = 'en-us'
-title = 'InfraHouse'
-theme = 'beautifulhugo'
-enableRobotsTXT = true
-
-[Params]
-homeTitle = "InfraHouse" # Set a different text for the header on the home page
-logo = "https://cdn.infrahouse.com/images/ih-logo.png" # Expecting square dimensions
-favicon = "https://cdn.infrahouse.com/images/favicon-light.png"
-selfHosted = true
-cdn = "https://cdn.infrahouse.com"
-mainSections = ["post","posts"]
-
-[menus]
-    [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-
-    [[menus.main]]
-    name = 'Products'
-    pageRef = '/products'
-    weight = 20
-
-        [[menus.main]]
-        name = 'Terraform Modules'
-        url = 'https://registry.terraform.io/namespaces/infrahouse'
-        parent = 'Products'
-        weight = 1
-
-        [[menus.main]]
-        name = 'Infrahouse Toolkit'
-        url = 'https://infrahouse-toolkit.readthedocs.io/en/latest/readme.html'
-        parent = 'Products'
-        weight = 2
-
-        [[menus.main]]
-        name = 'Terraform CI/CD'
-        url = 'https://github.com/infrahouse/terraform-template'
-        parent = 'Products'
-        weight = 3
-
-
-    [[menus.main]]
-    name = 'Services'
-    pageRef = '/services'
-    weight = 30
-
-        [[menus.main]]
-        name = 'Cloud Infrastructure Management'
-        pageRef = '/services/infrastructure-management'
-        parent = 'Services'
-        weight = 1
-
-        [[menus.main]]
-        name = 'Remote DBA'
-        pageRef = '/services/remote-dba'
-        parent = 'Services'
-        weight = 2
-
-    [[menus.main]]
-    name = 'Contact'
-    pageRef = '/contact'
-    weight = 40
-
-
-[author]
-name = "InfraHouse Inc."
-website = "https://infrahouse.com"
-github = "infrahouse"
-linkedin_inc = "infrahouse-inc"
-email = "contact@infrahouse.com"
-slack = "https://infrahouse.slack.com"
-discord = "https://discord.gg/xKBcdh6RN8"
+#baseURL = 'https://infrahouse.com/'
+#copyright = "2023-2024 InfraHouse Inc."
+#languageCode = 'en-us'
+#title = 'InfraHouse'
+#theme = 'beautifulhugo'
+#enableRobotsTXT = true
+#
+#[Params]
+#homeTitle = "InfraHouse" # Set a different text for the header on the home page
+#logo = "https://cdn.infrahouse.com/images/ih-logo.png" # Expecting square dimensions
+#favicon = "https://cdn.infrahouse.com/images/favicon-light.png"
+#selfHosted = true
+#cdn = "https://cdn.infrahouse.com"
+#mainSections = ["post","posts"]
+#
+#[menus]
+#    [[menus.main]]
+#    name = 'Home'
+#    pageRef = '/'
+#    weight = 10
+#
+#    [[menus.main]]
+#    name = 'Products'
+#    pageRef = '/products'
+#    weight = 20
+#
+#        [[menus.main]]
+#        name = 'Terraform Modules'
+#        url = 'https://registry.terraform.io/namespaces/infrahouse'
+#        parent = 'Products'
+#        weight = 1
+#
+#        [[menus.main]]
+#        name = 'Infrahouse Toolkit'
+#        url = 'https://infrahouse-toolkit.readthedocs.io/en/latest/readme.html'
+#        parent = 'Products'
+#        weight = 2
+#
+#        [[menus.main]]
+#        name = 'Terraform CI/CD'
+#        url = 'https://github.com/infrahouse/terraform-template'
+#        parent = 'Products'
+#        weight = 3
+#
+#
+#    [[menus.main]]
+#    name = 'Services'
+#    pageRef = '/services'
+#    weight = 30
+#
+#        [[menus.main]]
+#        name = 'Cloud Infrastructure Management'
+#        pageRef = '/services/infrastructure-management'
+#        parent = 'Services'
+#        weight = 1
+#
+#        [[menus.main]]
+#        name = 'Remote DBA'
+#        pageRef = '/services/remote-dba'
+#        parent = 'Services'
+#        weight = 2
+#
+#    [[menus.main]]
+#    name = 'Contact'
+#    pageRef = '/contact'
+#    weight = 40
+#
+#
+#[author]
+#name = "InfraHouse Inc."
+#website = "https://infrahouse.com"
+#github = "infrahouse"
+#linkedin_inc = "infrahouse-inc"
+#email = "contact@infrahouse.com"
+#slack = "https://infrahouse.slack.com"
+#discord = "https://discord.gg/xKBcdh6RN8"
