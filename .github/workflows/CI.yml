@@ -6,17 +6,10 @@ on:  # yamllint disable-line rule:truthy
   pull_request:
 
 jobs:
-    deploy:
-        runs-on: ubuntu-22.04
-        strategy:
-            matrix:
-                codename: ["jammy"]
-        steps:
-            - uses: actions/checkout@v3
-            - name: Install dependencies
-              run: |
-                sudo bash support/install_deps.sh ${{ matrix.codename }}
-
-            - name: Build package
-              run: |
-                OS_VERSION=${{ matrix.codename }} make package
+  deploy:
+    runs-on: ["self-hosted", "hugo"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build package
+        run: |
+            make package
