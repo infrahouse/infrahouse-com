@@ -40,7 +40,7 @@ bootstrap:
 all:
 	npm run project-setup
 	npm install
-	npm run build
+	PATH="${PATH}:/usr/local/bin" npm run build
 
 install:
 	mkdir -p "${DESTDIR}${INSTALL_DIR}"
