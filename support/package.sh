@@ -6,6 +6,7 @@ set -eux
 function generate_changelog() {
   cat > debian/changelog << EOF
 infrahouse-com (0.2.0-1build$(date +%s)) jammy; urgency=medium
+
   * commit event. see changes history in git log
 
  -- InfraHouse Packager <package@infrahouse.com>  $(date)
