@@ -1,4 +1,4 @@
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := help
 
 define BROWSER_PYSCRIPT
 import os, webbrowser, sys
@@ -37,7 +37,7 @@ bootstrap:
 	apt-get -y install devscripts \
 		debhelper
 
-all:
+all:  ## Build website
 	npm run project-setup
 	npm install
 	PATH="${PATH}:/usr/local/bin" npm run build
@@ -47,5 +47,9 @@ install:
 	cp -R public/* "${DESTDIR}${INSTALL_DIR}"
 
 .PHONY: package
-package: all
+package: all ## Package website in a .deb
 	bash support/package.sh
+
+.PHONY: start
+start:  ## Start a development container
+	docker run --rm -v "$$PWD:/infrahouse-com" -p 1313:1313 twindb/infrahouse.com
