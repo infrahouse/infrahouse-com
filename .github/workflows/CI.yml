@@ -1,0 +1,15 @@
+# This workflow will upload an infrahouse-com package when a new commit to main is pushed
+---
+name: infrahouse.com Continuous Integration
+
+on:  # yamllint disable-line rule:truthy
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ["self-hosted", "hugo"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build package
+        run: |
+            make package

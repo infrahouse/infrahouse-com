@@ -38,7 +38,9 @@ bootstrap:
 		debhelper
 
 all:
-	PATH="${PATH}:/usr/local/bin" hugo
+	npm run project-setup
+	npm install
+	PATH="${PATH}:/usr/local/bin" npm run build
 
 install:
 	mkdir -p "${DESTDIR}${INSTALL_DIR}"
