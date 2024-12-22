@@ -1,3 +1,9 @@
+infrahouse-com (0.1.0-1build23) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Sat, 21 Dec 2024 20:46:21 -0800
+
 infrahouse-com (0.1.0-1build22) jammy; urgency=medium
 
   * commit event. see changes history in git log
