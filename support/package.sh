@@ -2,6 +2,19 @@
 
 set -eux
 
+
+function generate_changelog() {
+  cat > debian/changelog << EOF
+infrahouse-com (0.2.0-1build$(date +%s)) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- InfraHouse Packager <package@infrahouse.com>  $(date +"%a, %d %b %Y %H:%M:%S %z")
+
+EOF
+}
+generate_changelog
+
 upstream_version=$(head -1 debian/changelog | awk '{ print $2 }' | sed -e 's/[()]//g' | awk -F- '{ print $1 }')
 pkg_name="infrahouse-com"
 TMPDIR=$(mktemp -d)
