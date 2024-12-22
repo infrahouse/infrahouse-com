@@ -4,6 +4,8 @@ FROM ubuntu:oracular
 ARG HUGO_VERSION=0.139.2
 
 COPY support/install_repo.sh /root/install_repo.sh
+COPY support/hugo_start.sh /root/hugo_start.sh
+
 RUN chmod +x /root/install_repo.sh
 RUN /root/install_repo.sh
 
@@ -18,4 +20,4 @@ RUN apt-get -y install golang
 ENV PATH=$PATH:/usr/local/go/bin
 
 WORKDIR /infrahouse-com
-CMD ["hugo", "server", "--bind", "0.0.0.0", "--poll", "700ms"]
+CMD ["bash", "/root/hugo_start.sh"]
