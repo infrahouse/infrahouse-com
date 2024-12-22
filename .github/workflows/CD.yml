@@ -36,6 +36,10 @@ jobs:
                   role-session-name: github-action-cd
                   aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
 
+            - name: clean previous artifacts
+              run: |
+                  rm -f ../infrahouse-com_*.deb
+
             - name: Build package
               run: |
                 make package
