@@ -23,7 +23,3 @@ name = "Contact Us"
 url = "/contact"
 weight = 2
 
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
