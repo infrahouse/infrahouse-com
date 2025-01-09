@@ -20,7 +20,6 @@ testimonials:
     avatar: "/images/avatar-sm.png"
     content: "Our database crashed during a critical product launch. They recovered everything within hours, saving us from significant losses."
 
-
 # don't create a separate page
 _build:
   render: "never"

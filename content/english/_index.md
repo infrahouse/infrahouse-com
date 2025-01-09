@@ -3,7 +3,7 @@
 banner:
   title: "Empower Your Startup with Scalable, Cost-Effective AWS Solutions"
   content: "Accelerate growth, cut cloud costs, and ensure 24/7 reliability with our expert-managed infrastructure services."
-  image: "/images/hero-banner.webp"
+  image: "/images/banner-2.webp"
   button:
     enable: true
     label: "Schedule a Free Consultation"
