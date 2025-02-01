@@ -1,18 +1,18 @@
 ---
 # Banner
 banner:
-  title: "Empower Your Startup with Scalable, Cost-Effective AWS Solutions"
+  title: "Empower Your Startup with Scalable, Cost-Effective Infrastructure Solutions"
   content: "Accelerate growth, cut cloud costs, and ensure 24/7 reliability with our expert-managed flat-price infrastructure services."
-  image: "/images/banner-2.webp"
+  image: "/images/hero-infra2.jpg"
   button:
     enable: true
     label: "Schedule a Free Consultation"
-    link: "https://meetings.hubspot.com/anton-naumenko"
+    link: "https://meetings.hubspot.com/oleksandr-kuzminskyi"
 
 # Features
 features:
   - title: "24/7 Monitoring"
-    image: "/images/service-1.png"
+    image: "/images/value-1.jpg"
     content: "Peace of mind with round-the-clock infrastructure oversight. Global Coverage for Unmatched Reliability."
     bulletpoints:
       - "**24/7 Infrastructure Support:** Continuous monitoring and protection of your infrastructure to prevent downtime."
@@ -25,7 +25,7 @@ features:
       link: "#"
 
   - title: "Modern Infrastructure as Code"
-    image: "/images/service-2.png"
+    image: "/images/value-2.jpg"
     content: "Efficient, scalable, and secure deployments."
     bulletpoints:
       - "**Scalable Automation:** Modern Infrastructure as Code (IaC) practices automate cloud resource deployment and management."
@@ -39,7 +39,7 @@ features:
       link: "https://github.com/zeon-studio/hugoplate"
 
   - title: "Flat Monthly Retainer"
-    image: "/images/service-3.png"
+    image: "/images/value-3.jpg"
     content: "Transparent pricing at just $10K/month. Exceptional Value."
     bulletpoints:
       - "**Flat Monthly Retainer:** Transparent pricing at $10K per month with no hidden fees or unexpected costs."
