@@ -140,12 +140,15 @@
                         </blockquote>
                         <div class="mt-11 flex items-center">
                           <div class="text-dark dark:text-white">
-                            {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
+                            {{ partial "image" (dict "Src" .avatar "Size" "100x100" "Class" "rounded-full" "Alt" .name) }}
                           </div>
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
                               {{ .name }}
                             </h3>
+                            <p class="text-dark dark:text-white">
+                              {{ .position | markdownify }}
+                            </p>
                             <p class="text-dark dark:text-white">
                               {{ .designation | markdownify }}
                             </p>
