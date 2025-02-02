@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Empower Your Startup with Scalable, Cost-Effective Infrastructure Management"
-  content: "Accelerate growth, cut cloud costs, and ensure 24/7 reliability with our expert-managed flat-price infrastructure services."
+  title: "Empower Your Startup with Scalable and Cost-Effective Infrastructure"
+  content: "Accelerate growth, cut cloud costs, and ensure 24/7 reliability with our expert-managed flat-price infrastructure services"
   image: "/images/hero-infra2.jpg"
   button:
     enable: true
