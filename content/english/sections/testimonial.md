@@ -1,29 +1,24 @@
 ---
 enable: true
-title: "What Users Are Saying About Hugoplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+title: "What Startups Are Saying About InfraHouse"
+description: "Don't just take our word for it - hear from some of our satisfied clients!  Check out some of our testimonials below to see what others are saying about us."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Tech Founder"
+    designation: "HealthTech Startup"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "As a pre-seed startup, we struggled with setting up a reliable infrastructure. This team got us up and running in just days with a scalable AWS solution that supports our rapid growth."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Engineering Manager"
+    designation: "SaaS Platform"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "We were hemorrhaging money on cloud costs without realizing it. After their audit, we saved 35% monthly, freeing up resources to invest in product development."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Data Recovery Client"
+    designation: "Fintech Startup"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Our database crashed during a critical product launch. They recovered everything within hours, saving us from significant losses."
 
 # don't create a separate page
 _build:

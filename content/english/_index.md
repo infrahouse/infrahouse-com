@@ -1,53 +1,54 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Empower Your Startup with Scalable !and Cost-Effective Infrastructure"
+  content: "Accelerate growth, cut cloud costs, and ensure 24/7 reliability with our expert-managed flat-price infrastructure services"
+  image: "/images/hero-infra2.jpg"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Schedule a Free Consultation"
+    link: "https://meetings.hubspot.com/oleksandr-kuzminskyi"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "24/7 Monitoring"
+    image: "/images/value-1.jpg"
+    content: "Peace of mind with round-the-clock infrastructure oversight. Global Coverage for Unmatched Reliability."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "**24/7 Infrastructure Support:** Continuous monitoring and protection of your infrastructure to prevent downtime."
+      - "**Dedicated Team of Engineers:** Skilled professionals located across North America, South America, and Europe for global coverage."
+      - "**Rapid Incident Resolution:** Strategically distributed team ensures minimal response latency regardless of time zone."
+      - "**Guaranteed Operational Stability:** Robust systems in place to ensure your infrastructure remains secure and operational around the clock."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Modern Infrastructure as Code"
+    image: "/images/value-2.jpg"
+    content: "Efficient, scalable, and secure deployments."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "**Scalable Automation:** Modern Infrastructure as Code (IaC) practices automate cloud resource deployment and management."
+      - "**Consistency and Reliability:** Ensures infrastructure is consistent, repeatable, and free from human error."
+      - "**Rapid Scaling:** Quickly adapt to surges in demand with scalable, automated infrastructure."
+      - "**Seamless CI/CD Integration:** Streamlined workflows enable faster deployments with built-in IaC compatibility."
+      - "**Operational Efficiency:** Reduce overhead reusing tailored solutions that eliminate manual management bottlenecks."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Flat Monthly Retainer"
+    image: "/images/value-3.jpg"
+    content: "Transparent pricing at just $10K/month. Exceptional Value."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "**Flat Monthly Retainer:** Transparent pricing at $10K per month with no hidden fees or unexpected costs."
+      - "**Dedicated Expert Team:** Access to at least four experienced engineers providing 24/7 infrastructure monitoring and support."
+      - "**Included Development Hours:** Minimum of 50 hours of infrastructure development each month for new features, performance optimization, and seamless scaling."
+      - "**Budget Predictability:** Manage tight budgets with confidence, knowing your costs are fixed and your infrastructure is in expert hands."
+      - "**Focus on Growth:** Free up resources to prioritize business expansion while we handle your infrastructure needs."
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Get Started Now"
+      link: "/contact"
 ---

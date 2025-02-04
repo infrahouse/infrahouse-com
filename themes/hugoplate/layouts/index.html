@@ -78,10 +78,34 @@
   {{ end }}
   <!-- /Features -->
 
+    <!-- About Me -->
+  {{ with site.GetPage "sections/about" }}
+    {{ if .Params.enable }}
+      <section class="section pt-14">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="mb-8">
+              {{ partial "image" (dict "Src" .Params.image "Alt" "Alex image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            </div>
+            <div class="lg:col-7 md:col-9 mb-8 text-center">
+              <h1 class="mb-4 text-h3 lg:text-h1">
+                {{ .Title | markdownify }}
+              </h1>
+              <p class="mb-8">
+                {{ .Params.description | markdownify }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+  <!-- /About Me -->
+
   <!-- Testimonials -->
   {{ with site.GetPage "sections/testimonial" }}
     {{ if .Params.enable }}
-      <section class="section">
+      <section class="section pt-0">
         <div class="container">
           <div class="row">
             <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
@@ -116,12 +140,15 @@
                         </blockquote>
                         <div class="mt-11 flex items-center">
                           <div class="text-dark dark:text-white">
-                            {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
+                            {{ partial "image" (dict "Src" .avatar "Size" "100x100" "Class" "rounded-full" "Alt" .name) }}
                           </div>
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
                               {{ .name }}
                             </h3>
+                            <p class="text-dark dark:text-white">
+                              {{ .position | markdownify }}
+                            </p>
                             <p class="text-dark dark:text-white">
                               {{ .designation | markdownify }}
                             </p>
