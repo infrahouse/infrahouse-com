@@ -6,14 +6,12 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 # Testimonials
 testimonials:
   - name: "Tech Founder"
-    position: "Founder and CEO"
     designation: "HealthTech Startup"
     avatar: "/images/avatar-sm.png"
     content: "As a pre-seed startup, we struggled with setting up a reliable infrastructure. This team got us up and running in just days with a scalable AWS solution that supports our rapid growth."
 
-  - name: "CTO"
+  - name: "Engineering Manager"
     designation: "SaaS Platform"
-    position: "Engineering Manager"
     avatar: "/images/avatar-sm.png"
     content: "We were hemorrhaging money on cloud costs without realizing it. After their audit, we saved 35% monthly, freeing up resources to invest in product development."
 
